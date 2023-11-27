@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(255, 255,255);
+    padding: 10px 0;/*top-bottom left-right*/
+}
+
+.marker {
+    height: 25px;
+    width: 200px;
+    margin: 10px auto;/*top-bottom left-right*/
+}
+
+.red {
+    /*background-color: rgb(255,0,0);*/
+
+    /* background: linear-gradient(180deg, rgb(122, 74 , 14) 0%, rgb(245, 62 , 133) 50%, rgb(162, 27, 27) 100%); */
+
+    background: linear-gradient(rgb(122, 74 , 14), rgb(245, 62 , 133), rgb(162, 27, 27));
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
+
+.green {
+    /* background-color: #007f00; */
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 0 0 20px 0 #3B7E20CC;
+}
+
+.blue {
+    /* background-color: hsl(240, 100%, 50%); */
+
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8);
+}
+
+.sleeve{
+    height: 25px;
+    width: 110px;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color: black; */
+
+    border-left: 10px double rgba(0, 0, 0, 75%);
+}
+
+.cap{
+    width: 60px;
+    height: 25px;
+}
+
+.sleeve, .cap{
+    display: inline-block;
+}
